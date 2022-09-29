@@ -1,1 +1,14 @@
-//
+@import './partials/general';
+@import './partials/typo';
+@import './partials/header';
+@import './partials/trainList';
+@import './partials/utilities';
+@import './partials/footer';
+
+main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
